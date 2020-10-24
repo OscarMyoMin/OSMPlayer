@@ -1,0 +1,3 @@
+include ':osmplayer'
+include ':app'
+rootProject.name = "OSMPlayer"
