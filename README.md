@@ -24,6 +24,18 @@ OSMPlayer is an ExoPlayer2 wrapper that simplifies streaming videos with subtitl
         
 3. Use the library
 
-        OSMPlayer.play(context, videoTitle, videoURL, subtitleURL);
+        osmPlayer = OSMPlayer()
+        OSMPlayer.SHOW_LOGO = true 
+        osmPlayer!!.setLogo(R.drawable.ic_logo)
+        OSMPlayer.SRTSTYLE_DEFAULT = false
+        osmPlayer!!.srtStyle(
+                Color.WHITE,
+                Color.TRANSPARENT,
+                Color.TRANSPARENT,
+                Color.RED,
+                10
+        )
+        osmPlayer!!.play(context, videoTitle, videoURL, subtitleURL);
+          
         
         
