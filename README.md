@@ -1,10 +1,11 @@
 # OSMPlayer
-
-OSMPlayer is an ExoPlayer2 wrapper that simplifies streaming videos with subtitles.
 [![](https://jitpack.io/v/OscarMyoMin/OSMPlayer.svg)](https://jitpack.io/#OscarMyoMin/OSMPlayer)
 
+OSMPlayer is an ExoPlayer2 wrapper that simplifies streaming videos with subtitles.
+
+
 ## Original Project
-https://github.com/SniperDW/Streamer
+[Streamer](https://github.com/SniperDW/Streamer)
 
 ### Usage
 
