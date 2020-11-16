@@ -84,7 +84,8 @@
             android:paddingRight="10dp"
             android:background="@drawable/bg_subtitle"
             android:textColor="@color/black"
-            android:text="Myanmar"/>
+            android:text="Myanmar"
+            android:visibility="gone"/>
         <TextView
             android:id="@+id/exo_quality"
             android:layout_width="wrap_content"
@@ -96,7 +97,8 @@
             android:paddingRight="10dp"
             android:background="@drawable/bg_subtitle"
             android:textColor="@color/black"
-            android:text="720p"/>
+            android:text="720p"
+            android:visibility="gone"/>
 
         <ImageView
             android:id="@+id/exo_lock"

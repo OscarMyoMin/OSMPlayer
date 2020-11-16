@@ -41,5 +41,7 @@
         android:layout_height="40dp"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="30dp"
+        android:visibility="gone"
         android:src="@drawable/ic_logo"/>
+
 </RelativeLayout>
